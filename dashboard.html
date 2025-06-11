@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Kitui Infra Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Kitui Infra Tracker</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="login.html" class="btn">Log Out</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+        <h2>Welcome, [User Name]</h2>
+        <div class="dashboard-options">
+            <a href="report.html" class="btn primary">Report a New Issue</a>
+            <a href="#view-issues" class="btn">View My Raised Issues</a>
+            <a href="#generate-report" class="btn">Generate Report</a>
+        </div>
+        <div class="issues-list">
+            <h3>My Raised Issues</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Issue ID</th>
+                        <th>Date Reported</th>
+                        <th>Subcounty & Ward</th>
+                        <th>Infrastructure</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#001</td>
+                        <td>2025-06-01</td>
+                        <td>Kitui Central, Township</td>
+                        <td>Road</td>
+                        <td>Pending Review</td>
+                        <td><a href="#details">View Details</a></td>
+                    </tr>
+                    <tr>
+                        <td>#002</td>
+                        <td>2025-06-05</td>
+                        <td>Mwingi North, Kyuso</td>
+                        <td>Bridge</td>
+                        <td>Under Investigation</td>
+                        <td><a href="#details">View Details</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Kitui County Infrastructure Tracker. All rights reserved.</p>
+        <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
